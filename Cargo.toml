@@ -1,0 +1,11 @@
+[package]
+name = "webplotter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1", features = ["full"]}
+tokio-tungstenite = "0.26.1"
+tungstenite = "0.26.1"
+futures-util = "0.3.31"
+futures-macro = "0.3.31"
